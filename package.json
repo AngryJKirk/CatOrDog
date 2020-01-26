@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "roboto-fontface": "^0.10.0",
+    "vue": "^2.6.10",
+    "vue-images-loaded": "^1.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
