@@ -21,7 +21,7 @@ npm run lint
 ```
 
 ###
-Live action is [HERE](https://angrynaz.github.io/CatOrDog/)
+Live action is [HERE](https://AngryJKirk.github.io/CatOrDog/)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
