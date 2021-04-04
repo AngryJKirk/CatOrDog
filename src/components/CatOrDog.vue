@@ -67,9 +67,9 @@
             fetchDog: function () {
                 this.isLoaderShowed = true;
                 this.buttonsDisabled = true;
-                return fetch("https://random.dog/woof.json?filter=mp4,webm,gif")
+                return fetch("https://dog.ceo/api/breeds/image/random")
                     .then(res => res.json())
-                    .then(res => this.src = res.url)
+                    .then(res => this.src = res.message)
             }
         }
     }
