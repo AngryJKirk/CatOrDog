@@ -59,10 +59,9 @@
             fetchCat: function () {
                 this.isLoaderShowed = true;
                 this.buttonsDisabled = true;
-                return fetch("https://aws.random.cat/meow")
+                return fetch("https://cataas.com/cat?json=true")
                     .then(res => res.json())
-                    .then(res => this.src = res.file)
-
+                    .then(res => this.src = "https://cataas.com" + res.url)
             },
             fetchDog: function () {
                 this.isLoaderShowed = true;
