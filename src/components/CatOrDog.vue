@@ -61,7 +61,7 @@
                 this.buttonsDisabled = true;
                 return fetch("https://cataas.com/cat?json=true")
                     .then(res => res.json())
-                    .then(res => this.src = "https://cataas.com" + res.url)
+                    .then(res => this.src = "https://cataas.com/cat/" + res._id)
             },
             fetchDog: function () {
                 this.isLoaderShowed = true;
